@@ -1,0 +1,49 @@
+{
+  "7147025658": {
+    "topic": "a beautifyl peacock dancing in rain",
+    "mode": "generate",
+    "tone": "storytelling",
+    "image_provider": "nano-banana",
+    "image_style": "realistic",
+    "generated": {
+      "success": true,
+      "platforms": {
+        "facebook": {
+          "content": "What a sight to behold! \ud83e\udd9a\ud83d\udc83\ud83c\udf27\ufe0f As I strolled through the park yesterday, I spotted a darling peacock, his feathers shimmering in hues of blue and green as if they were touched by a rainbow itself! \ud83c\udf08 He was dancing, yes, DANCING in the rain! \u2614\n\nEach twirl, each shake of his splendid tail, synchronized with the rhythm of the falling raindrops. It was as if the sky played the music and he, the beautiful peacock, was performing an enchanting ballet, right there, in the heart of nature! \ud83c\udfb6 \n\nCan you imagine that? Everyone around was spellbound. There was a hush, a pause in time, and we were all captivated by this unexpected, glorious spectacle. \ud83d\ude2e\ud83d\udc93 \n\nNature never ceases to amaze, does it? Just when you think you've seen it all, it surprises you with a dancing peacock in the rain! What's your most magical encounter with nature? Share in the comments below. Let's celebrate the beauty that this world has to offer! \ud83c\udf0d\ud83d\udc9a #MagicOfNature #RainDance",
+          "success": true,
+          "character_count": 944
+        },
+        "instagram": {
+          "content": "\"Caught in the rain again \ud83c\udf27\ufe0f, but look who's dancing along! This stunning peacock \ud83e\udd9a spreading its vibrant feathers in a joyous dance \ud83d\udc83, as if the raindrops are music \ud83c\udfb6 to its soul. Nature's very own color festival \ud83c\udf08 in full swing. #PeacockLove #DancingInTheRain #NatureBeauty #RainyDayVibes #JoyOfLife \ud83d\udc95\ud83c\udf3f\"",
+          "success": true,
+          "character_count": 305
+        },
+        "twitter": {
+          "content": "Caught a glimpse of nature's grandeur today. \ud83d\udc99 A peacock, in all its majesty, dancing under the silver raindrops. Each pirouette, a spectacle of iridescent elegance. \ud83e\udd9a\ud83d\udca6 Life's chaos paused for a moment of pure beauty. #NatureUnscripted #RainyDayMagic \ud83c\udf26\ufe0f\u2728",
+          "success": true,
+          "character_count": 254
+        },
+        "reddit": {
+          "content": "\"Caught an ethereal moment in my backyard today. A majestic peacock, feathers fanned out like a royal cape, was caught dancing solo in the rain. \ud83c\udf27\ufe0f\ud83e\udd9a The rhythm of the raindrops, the iridescent colors twinkling, the sheer joy in his eyes...how often do you witness nature's ballet performed with such grace? The rain and the peacock, in perfect harmony, reminded me how beautiful our world can be. Let's cherish these moments, reddit fam! \ud83c\udf0d\ud83d\udc9a\ud83d\udcab\"",
+          "success": true,
+          "character_count": 442
+        }
+      },
+      "image": {
+        "success": true,
+        "image_url": "https://v3b.fal.media/files/b/tiger/jbUOLb7lJoOrMa9f8HdiW.jpg",
+        "local_path": "uploads/ai_generated/ai_generated_20251015_161603_c62a0fa1.png",
+        "filename": "ai_generated_20251015_161603_c62a0fa1.png",
+        "web_path": "/uploads/ai_generated/ai_generated_20251015_161603_c62a0fa1.png",
+        "provider": "fal-ai",
+        "model": "nano-banana"
+      },
+      "topic": "a beautifyl peacock dancing in rain",
+      "tone": "storytelling",
+      "enhanced_prompts": null
+    },
+    "approved_platforms": [],
+    "image_approved": false,
+    "temp_image_path": "uploads/telegram_temp_17b792b5.png"
+  }
+}
