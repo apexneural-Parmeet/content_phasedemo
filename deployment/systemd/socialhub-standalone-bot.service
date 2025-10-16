@@ -1,0 +1,41 @@
+[Unit]
+Description=Social Hub Standalone Telegram Bot
+Documentation=https://github.com/yourusername/socialhub
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/home/socialhub
+Environment="PATH=/home/socialhub/venv/bin"
+Environment="PYTHONUNBUFFERED=1"
+
+# Run the standalone bot
+ExecStart=/home/socialhub/venv/bin/python standalone_bot.py
+
+# Restart configuration
+Restart=always
+RestartSec=10
+StartLimitInterval=200
+StartLimitBurst=5
+
+# Logging
+StandardOutput=append:/home/socialhub/logs/bot.log
+StandardError=append:/home/socialhub/logs/bot_error.log
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/home/socialhub/data /home/socialhub/logs /home/socialhub/uploads
+
+# Resource limits
+MemoryLimit=512M
+CPUQuota=80%
+
+[Install]
+WantedBy=multi-user.target
+

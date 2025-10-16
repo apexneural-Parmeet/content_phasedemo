@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Uploads
+uploads/
+!uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Data directory (contains all sensitive files)
+data/
+!data/credentials/.gitkeep
+!data/storage/.gitkeep
+
+# Legacy - in case files are still in root
+scheduled_posts.json
+user_credentials.json
+telegram_auth.json
+
+# Temporary files
+*.tmp
+*.bak
+*.backup

@@ -1,0 +1,40 @@
+.home-page {
+  min-height: calc(100vh - 56px);
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.home-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* YouTube-style overrides for home page */
+.home-page .card {
+  animation: fadeIn 0.4s ease 0.1s both;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hide platform status section as it's now in navbar */
+.home-page .platform-status {
+  display: none;
+}
